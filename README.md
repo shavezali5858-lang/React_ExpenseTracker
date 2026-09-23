@@ -1,16 +1,168 @@
-# React + Vite
+# 💰 Smart Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Expense Tracker** built with **React.js and Tailwind CSS** to help users manage their daily expenses, set monthly budgets, and understand their spending patterns through charts and reports.
 
-Currently, two official plugins are available:
+The application provides expense management, category-wise analysis, filtering, searching, sorting, budgeting, and dark mode in a clean and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Dashboard
 
-## Expanding the ESLint configuration
+* View total income and total expenses
+* Track total transactions
+* Set and monitor monthly budget
+* View recent expenses
+* Visual spending charts
+* Responsive dashboard for desktop, tablet, and mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💸 Expense Management
+
+* Add new expenses
+* Edit existing expenses
+* Delete individual expenses
+* Delete all expenses
+* Search transactions
+* Filter expenses by category
+* Sort expenses by highest or lowest amount
+
+### 📂 Category Analysis
+
+* Identify the top spending category
+* View category-wise spending using a pie chart
+* Calculate average spending per transaction
+* Visualize spending distribution
+
+### 📈 Reports
+
+* Monthly expense trends
+* Category-based expense visualization
+* View total spending
+* Export reports
+
+### 🎨 UI & UX
+
+* Fully responsive design
+* Light mode and dark mode
+* Mobile-friendly layouts
+* Clean and simple interface
+* Responsive tables and modals
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Purpose                            |
+| ------------ | ---------------------------------- |
+| React.js     | Frontend framework                 |
+| Tailwind CSS | Styling & responsive design        |
+| Context API  | State management                   |
+| Recharts     | Data visualization                 |
+| Font Awesome | Icons                              |
+| JavaScript   | Application logic                  |
+| LocalStorage | Persisting expense and budget data |
+
+---
+
+## 📱 Responsive Design
+
+The application is designed to work across different screen sizes:
+
+* 📱 Mobile
+* 📲 Tablet
+* 💻 Desktop
+
+Responsive layouts are implemented using Tailwind CSS breakpoints.
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/smart-expense-tracker.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd smart-expense-tracker
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL shown in your terminal.
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Sidebar.jsx
+│   ├── Header.jsx
+│   └── ...
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Expenses.jsx
+│   ├── Categories.jsx
+│   └── Reports.jsx
+│
+├── context/
+│   └── ExpenseContext.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🧠 What I Learned
+
+While building this project, I practiced:
+
+* React component architecture
+* React Hooks
+* Context API
+* State management
+* Array methods such as `map()`, `filter()`, and `sort()`
+* Expense aggregation and calculations
+* Data visualization with Recharts
+* Responsive design with Tailwind CSS
+* Dark mode implementation
+* Working with LocalStorage
+* Creating reusable UI components
+* Building responsive tables and modals
+
+---
+
+## 🔮 Future Improvements
+
+Some features that can be added in future versions:
+
+* User authentication
+* Backend API integration
+* MongoDB database
+* Cloud data synchronization
+* Recurring expenses
+* Multiple income sources
+* Advanced financial analytics
+* CSV/PDF expense export
+* Monthly and yearly comparison
+* Cu
